@@ -1,0 +1,35 @@
+
+<a name="top"></a>
+
+<img src="../images/pircball2.gif" style="position:absolute;left:0px;top:0px;z-index:2" alt="" usemap="#globemap">
+<map name="globemap">
+<area shape="polygon" alt="pircusc.com"
+coords="1,112,76,117,120,34,143,37,138,97,130,110,108,135,77,150,50,155,19,152,1,144" href="../index.html">
+<area shape="polygon" alt="Calendar"
+coords="1,144,19,152,50,155,77,150,89,177,42,185,1,177" href="../calendar/calendar.php">
+<area shape="polygon" alt="Area Government"
+coords="77,150,108,135,130,110,138,97,140,85,173,96,153,130,128,156,89,177" href="../areagov/government.php">
+<area shape="polygon" alt="Gallery"
+coords="140,85,173,96,182,49,182,10,138,10,145,45" href="http://s113.photobucket.com/albums/n236/pircag0607/">
+</map>
+<table cellpadding=0 cellspacing=0 border=0><tr>
+<td width=100 rowspan=2 class="imagebar"><img src="../images/clear.gif" alt="" width=100 height=336>
+<a href="http://www.usc.edu" target="_blank">
+</td>
+<td colspan=2>
+<img src="../images/clear.gif" width=90 height=150 alt="" align="left">
+<img src="../images/pirctitle.gif" alt="Parkside International Residential College">
+
+<div class="xbar"> 
+<a href="../index.html" class="navx">Home</a> | 
+<a href="../calendar/calendar.php" class="navx">Events Calendar</a> | 
+<a href="../areagov/government.php" class="navx">Area Gov't</a> | 
+<a href="http://s113.photobucket.com/albums/n236/pircag0607/" class="navx">Gallery</a> | 
+<a href="../resources/resources.php" class="navx">Resources</a> | 
+<a href="../athletics/athletics.php" class="navx">Athletics</a> | 
+<a href="../contact/contact.php" class="navx">Contact</a> 
+
+</div>
+</td></tr>
+<tr>
+<td class="bx">

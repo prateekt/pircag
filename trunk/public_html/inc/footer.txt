@@ -1,0 +1,11 @@
+
+</td></tr></table>
+<br>
+<center><a href="#top">Top</a></center>
+<div class="footer">
+<img src="../images/ag.gif" alt="" align="right">
+<br>
+Brought to you by Parkside Area Government<br><br>
+Parkside International Residential College <a href="http://www-scf.usc.edu/~pirc" class="white">http://www.pircusc.com</a><br>
+University of Southern California <a href="http://www.usc.edu" class="white">http://www.usc.edu</a><br><br>
+<div id="credits">Designed by Blake Kawamoto</div>
