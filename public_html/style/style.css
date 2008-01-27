@@ -1,0 +1,52 @@
+.center {text-align:center}
+.right {text-align:right}
+.left{float:left;}
+#padding-r{padding:0 8px 0 0;}
+a {color:#990000;text-decoration:none;}
+a:hover {color:#FF0000;text-decoration:underline;}
+a.here {color:#000000;text-decoration:none;}
+a.here:hover {color:#000000;text-decoration:none;}
+a.navx{font-family:Helvetica;}
+a.white {color:#FFFFFF;}
+a.white:hover {color:#FFFFFF;}
+body {margin-top:0;margin-left:0;margin-bottom:0px;margin-right:0px;background-image:url(../images/newpirc3.jpg);background-repeat:no-repeat;font-family:Helvetica;font-size:16px;background-color:#FFFFFF;text-align:left;}
+div.announcement{width:240px;padding:10px;background-color:#FFF8DC  	;border-width:1px;border-color:#000000;border-style:solid;}
+div.announcement#auto{width:auto;text-align:center;}
+div.announcement#awide{width:auto;background-color:#EEEEEE;}
+div.announcement#xwide{width:auto;background-color:#F5DEB3;}
+div.big{font-size:1.2em;}
+div.blocktitle{background:#FFFFFF url(../images/gradientx.jpg) repeat-y;color:#FFFFFF;padding:3px;font-weight:bold;border-width:0 0 1px 0;border-color:#990000;border-style:solid;}
+div.footer{background-color:#990000;color:#FFFFFF;border-width:0;border-top-width:5px;border-style:double;border-color:#FFFFFF}
+div.newspop{padding:5px;background-color:#F0E68C;border-width:1px;border-color:#000000;border-style:dashed;position:absolute;z-index:1;display:none;width:200px;font-size:1.55em;z-index:1;}
+div.xbar{border-width:1px;border-color:#000000;border-style:solid;border-left-width:0;border-right-width:0;color:#990000;}
+div.sidebar{font-size:0.75em;}
+div.text{padding:8px;}
+h3 {margin:0.25em 0.5em 0.5em 0em;border-width:0px;border-bottom-width:2px;border-right-width:2px;border-style:solid;border-color:#000000;font-size:18pt}
+hr {color:#990000;height:1px;text-align:center;}
+hr.header {width:100px;height:2px;border-style:dashed;}
+img {border-width:0;}
+img.usc {margin:10px;background-color:#990000;}
+span.date{font-size:16px;font-family:Goudy Old Style, Times;color:#990000;}
+span.header{font-family:Goudy Old Style;font-size:48px;font-weight:bold}
+span.footer{display:block;width:600;font-size:65%;text-align:right;}
+span.hx {font-family:Goudy Old Style,Times;font-size:36px;color:#FFFFFF;display:block;font-weight:bold;}
+span.info{padding-top:10px;padding-bottom:15px;padding-left:100px;display:block;font-size:65%}
+span.subheader{font-size:135%;font-weight:bold;padding-bottom:15px;}
+span.subheader2{font-size:125%;font-weight:bold;padding-bottom:5px;color:#FFFFFF;}
+table.calendar{border-color:#990000;border-width:3px;border-style:double;}
+table.gal{width:100%;}
+table.gal td{font-size:0.95em;border-color:#990000;border-style:solid;border-width:1px;vertical-align:top;}
+table.navbar{background-color:#B0171F;}
+td.bx{vertical-align:top;padding:5px;}
+td.bxa{vertical-align:top;font-size:0.70em;}
+td.bxa#today {background-color:#F0E68C;}
+td.gal{vertical-align:top;width:160px;}
+td.ibox{vertical-align:center;text-align:center;width:160px;height:160px;border-width:1px;border-color:#000000;border-style:dashed;}
+td.imagebar{width:100px;background-image:url(../images/imagebar.jpg);background-repeat:repeat-y;vertical-align:top;border-width:0px;border-right-width:1px;border-style:solid;border-color:#000000;}
+td.navx{background-color:#990000;color:#FFFFFF;height:70px;background-image:url(../images/banner2.jpg);background-repeat:no-repeat;}
+td.usc{background-color:#990000;width:98px;}
+td.week{text-align:center;}
+th.gal{background-color:#990000;color:#FFFFFF;}
+th.month{text-align:center;background-color:#990000;color:#FFFFFF;}
+ul{margin-left:30px;padding:0px;list-style-type:circle;}
+#credits{width:100%;text-align:left;font-size:75%;}
