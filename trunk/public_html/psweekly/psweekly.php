@@ -5,21 +5,16 @@
 	<title>Parkside Weekly</title>
     
 <?
-$calendar_xml_address[0] = 
+$calendar[0] = 
 "http://www.google.com/calendar/feeds/p1jkqpkrqeltabq915v3nq7k9k@group.calendar.google.com/public/basic";
 $cache_location="";
 $dateformat="D j F, Y: g.ia"; // Thursday, 10 March - see http://www.php.net/date for details	
-$simplepie_location = "gcal_api/simplepie.inc";
 $gcalmanager_location = "gcal_api/GCalManager.inc";
-include ($simplepie_location);
 include ($gcalmanager_location);
-
 $g = new GCalManager();
-
 $beginTimeStr = $g->getBeginTimeStr(mktime());
 $endTimeStr = $g->getEndTimeStr(mktime() + 7*24*60*60);
-
-$events = $g->getEventsListing($beginTimeStr, $endTimeStr, $calendar_xml_address, $cache_location);
+$events = $g->getEventsListing($beginTimeStr, $endTimeStr, $calendar, "", 5000000);
 
 ?>
 
@@ -172,7 +167,7 @@ $events = $g->getEventsListing($beginTimeStr, $endTimeStr, $calendar_xml_address
                 font-family: Verdana; 
                 font-size: 10px; 
                 color: #000000;
-              ">If you would like to unsubscribe from Parkside Weekly, click on the following link: <a href="http://www.pircusc.com/psweekly/unsubscribe.php">http://www.pircusc.com/psweekly/unsubscribe.php</a>. <br />
+              ">If you would like to unsubscribe from Parkside Weekly, email tandonp@usc.edu.<br />
 				  <br />
 			  Questions? Comments? Suggestions? Email <a href="mailto:tandonp@usc.edu">tandonp@usc.edu</a>. </font></p>          </td>
 			</tr>
