@@ -9,8 +9,8 @@ $calendar_xml_address[0] =
 "http://www.google.com/calendar/feeds/p1jkqpkrqeltabq915v3nq7k9k@group.calendar.google.com/public/basic";
 $cache_location="";
 $dateformat="D j F, Y: g.ia"; // Thursday, 10 March - see http://www.php.net/date for details	
-$simplepie_location = "../gcal_api/simplepie.inc";
-$gcalmanager_location = "../gcal_api/GCalManager.inc";
+$simplepie_location = "gcal_api/simplepie.inc";
+$gcalmanager_location = "gcal_api/GCalManager.inc";
 include ($simplepie_location);
 include ($gcalmanager_location);
 
