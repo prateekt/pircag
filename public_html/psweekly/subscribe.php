@@ -26,14 +26,17 @@
   Sign up now!</span></p>
 
 </blockquote>
-  <form name="form1" method="post" action="http://athena.vistapages.com/~mvldorg/psweekly_scripts/subscribe_script.php">
-    <span class="style4">
-    Email:</span> 
-    <input name="email" type="text" id="email">
+<form method=GET action="http://www.usc.edu/cgi-bin/form_handler">
+	<span class="style4">Email:</span> 
+    <input name="FH_Email" type="text" id="FH_Email">
     <input name="GO" type="submit" id="GO" value="GO">
-  </form>
-  <p class="style1"><br>
-  </p></td>
+    <input type="hidden" name="FH_Recipients" value="tandonp@usc.edu">
+    <input type="hidden" name="FH_Topic" value="Subscription notice">
+    <input type="hidden" name="FH_OK_URL" value="http://www-scf.usc.edu/~pirc/psweekly/ok.php">
+    <input type="hidden" name="FH_ERROR_URL" value="http://www-scf.usc.edu/~pirc/psweekly/error.php">
+</form>
+<BR>
+</td>
 </tr>
 </table>
 <br>
