@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^langtables.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.langtables.com$
+RewriteRule ^(.*)$ http://www.mvld.org/langtables/ [R=301,L]
+
